@@ -26,7 +26,7 @@
 ```cmd
 ./gradlew clean bootJar
 ```
-* run(default port:5000)
+* run(default port:8080)
 ```cmd
 java -jar build/libs/mbs-0.0.1-SNAPSHOT.jar
 ```
