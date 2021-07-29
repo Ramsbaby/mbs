@@ -33,7 +33,7 @@ java -jar build/libs/mbs-0.0.1-SNAPSHOT.jar
 
 ## API Document
 ```cmd
-http://localhost:8081/docs/index.html
+http://localhost:8080/docs/index.html
 ```
 
 ## 문제 해결 전략 
