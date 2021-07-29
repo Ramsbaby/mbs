@@ -1,0 +1,170 @@
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectlinks:
+:site-url: /build/asciidoc/html5/
+
+= Membership RestAPI Server
+
+== 멤버십 관리
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a26d0 (spring rest docs apply)
+=== 멤버십 등록 API
+
+curl)
+include::{snippets}/registMembership/curl-request.adoc[]
+
+==== request header
+
+include::{snippets}/registMembership/request-headers.adoc[]
+
+==== request fields
+
+include::{snippets}/registMembership/request-fields.adoc[]
+
+==== request body
+
+include::{snippets}/registMembership/request-body.adoc[]
+
+==== response body
+
+include::{snippets}/registMembership/response-fields.adoc[]
+
+
+<<<<<<< HEAD
+=======
+>>>>>>> 05cf17e (spring rest docs coding...)
+=======
+>>>>>>> 02a26d0 (spring rest docs apply)
+=== 멤버십 전체조회 API
+
+curl)
+include::{snippets}/getMembershipAll/curl-request.adoc[]
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 02a26d0 (spring rest docs apply)
+==== request header
+
+include::{snippets}/getMembershipAll/request-headers.adoc[]
+
+==== response body
+
+include::{snippets}/getMembershipAll/response-fields.adoc[]
+
+
+=== 멤버십 상세조회 API
+
+curl)
+include::{snippets}/getMembershipDetail/curl-request.adoc[]
+
+<<<<<<< HEAD
+==== path parameters
+
+include::{snippets}/getMembershipDetail/path-parameters.adoc[]
+
+==== request header
+
+include::{snippets}/getMembershipDetail/request-headers.adoc[]
+
+==== response body
+
+include::{snippets}/getMembershipDetail/response-fields.adoc[]
+
+
+=== 멤버십 삭제 API
+
+curl)
+include::{snippets}/deleteMembership/curl-request.adoc[]
+
+==== path parameters
+
+include::{snippets}/deleteMembership/path-parameters.adoc[]
+
+==== request header
+
+include::{snippets}/deleteMembership/request-headers.adoc[]
+
+==== response body
+
+include::{snippets}/deleteMembership/response-fields.adoc[]
+
+=== 포인트 적립 API
+
+curl)
+include::{snippets}/earnPoint/curl-request.adoc[]
+
+==== path parameters
+
+include::{snippets}/earnPoint/path-parameters.adoc[]
+
+==== request header
+
+include::{snippets}/earnPoint/request-headers.adoc[]
+
+==== response body
+
+include::{snippets}/earnPoint/response-fields.adoc[]
+=======
+=======
+>>>>>>> 02a26d0 (spring rest docs apply)
+==== path parameters
+
+include::{snippets}/getMembershipDetail/path-parameters.adoc[]
+
+==== request header
+
+include::{snippets}/getMembershipDetail/request-headers.adoc[]
+
+==== response body
+
+include::{snippets}/getMembershipDetail/response-fields.adoc[]
+
+
+=== 멤버십 삭제 API
+
+curl)
+include::{snippets}/deleteMembership/curl-request.adoc[]
+
+==== path parameters
+
+include::{snippets}/deleteMembership/path-parameters.adoc[]
+
+==== request header
+
+include::{snippets}/deleteMembership/request-headers.adoc[]
+
+==== response body
+
+<<<<<<< HEAD
+include::{snippets}/getMembershipAll/response-fields.adoc[]
+>>>>>>> 05cf17e (spring rest docs coding...)
+=======
+include::{snippets}/deleteMembership/response-fields.adoc[]
+
+=== 포인트 적립 API
+
+curl)
+include::{snippets}/earnPoint/curl-request.adoc[]
+
+==== path parameters
+
+include::{snippets}/earnPoint/path-parameters.adoc[]
+
+==== request header
+
+include::{snippets}/earnPoint/request-headers.adoc[]
+
+==== response body
+
+include::{snippets}/earnPoint/response-fields.adoc[]
+>>>>>>> 02a26d0 (spring rest docs apply)
